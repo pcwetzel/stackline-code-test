@@ -1,5 +1,13 @@
 import React from 'react';
 import './product-details.scss';
+import PropTypes from 'prop-types';
+
+ProductDetails.propTypes = {
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  image: PropTypes.string,
+  tags: PropTypes.array
+};
 
 function ProductDetails(props) {
   const { title, subtitle, image } = props;
