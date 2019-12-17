@@ -40,7 +40,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### To Do
 - [ ] Sorting on the data table (just noticed that)
 - [ ] Format the Graph utility to more closely model the image or write own graphing utility
-- [ ] Remove elements from the DOM to prevent browser overload (display window of data)
 - [ ] Add static type checking (https://flow.org/en/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
