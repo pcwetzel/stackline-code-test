@@ -28,7 +28,7 @@ function SalesGraph(props) {
     <section className='region sales-graph'>
       <h2>Retail Sales</h2>
       <LineChart id='sales-graph'
-                 height='650px'
+                 height='600px'
                  data={data}
                  colors={['#46A8F6', '#9BA6BF']}
                  legend={false}
