@@ -11,7 +11,7 @@ function isValidDate(date = '') {
     if (month > 0 && month <= DAYS_IN_MONTH.length) {
       const maxDays = DAYS_IN_MONTH[(month - 1)];
 
-      if ((month === 1 && year % 4 && day <= 29) || (maxDays && maxDays >= day)) {
+      if (day > 0 && ((month === 1 && year % 4 && day <= 29) || (maxDays && maxDays >= day))) {
         return true;
       }
     }
