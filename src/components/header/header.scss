@@ -1,0 +1,23 @@
+@import '../../styles/style-guide.scss';
+
+header {
+  border-radius: 0;
+  margin-bottom: 20px;
+
+  @media #{$query-medium} {
+    margin-bottom: 40px;
+  }
+
+  @media #{$query-large} {
+    margin-bottom: 78px;
+  }
+
+  &.region {
+    padding-left: 20px;
+  }
+
+  img.logo {
+    max-width: 140px;
+    max-height: 140px;
+  }
+}

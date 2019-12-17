@@ -1,0 +1,17 @@
+@import '../../styles/style-guide.scss';
+
+footer {
+  margin-top: 20px;
+
+  @media #{$query-medium} {
+    margin-top: 40px;
+  }
+
+  @media #{$query-large} {
+    margin-top: 78px;
+  }
+
+  &.region {
+    padding-left: 20px;
+  }
+}

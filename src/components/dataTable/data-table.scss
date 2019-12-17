@@ -1,0 +1,22 @@
+@import '../../styles/style-guide.scss';
+
+.data-table {
+  table {
+    width: 100%;
+
+    th, td {
+      text-align: right;
+      padding-right: 50px;
+    }
+
+    th {
+      height: 80px;
+    }
+
+    td {
+      border-top: 2px solid $light-gray;
+      color: $dark-gray;
+      height: 55px;
+    }
+  }
+}

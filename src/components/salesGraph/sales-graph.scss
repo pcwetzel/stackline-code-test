@@ -1,0 +1,20 @@
+@import '../../styles/style-guide';
+
+.graph {
+  h2 {
+    padding-left: 10px;
+  }
+
+  canvas {
+    max-width: 100% !important;
+}
+}
+
+/*
+  Overriding React Chartkick styles
+  @TODO - Find in ChartJS where to pass in fonts and colors;
+*/
+#sales-graph {
+  font-family: $primary-font !important;
+  color: $dark-gray !important;
+}

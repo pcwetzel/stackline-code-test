@@ -1,0 +1,17 @@
+/* site fonts */
+$primary-font: Roboto, Arial, Verdana, sans-serif;
+
+/* site colors */
+$light-gray: #F6F8FA;
+$medium-gray: #EDEFF5;
+$dark-gray: #98A6BB;
+$charcoal: #344355;
+$electric-blue: #46A8F6;
+
+/* media queries */
+$query-medium: only screen and (min-width: 870px);
+$query-large: only screen and (min-width: 1600px);
+
+/*
+@media #{$query-medium} {
+ */
