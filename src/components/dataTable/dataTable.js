@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 DataTable.propTypes = {
   headings: PropTypes.array,
-  rows: PropTypes.array.isRequired
+  rows: PropTypes.array
 };
 
 function DataTable(props) {
