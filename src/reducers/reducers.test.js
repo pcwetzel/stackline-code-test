@@ -7,7 +7,7 @@ const initialState = {
 
 describe('root reducer test', () => {
   it('should return the initial state of the reducer', () => {
-    expect(rootReducer(undefined, {})).toEqual(initialState)
+    expect(rootReducer(undefined, {})).toEqual(initialState);
   });
 
   it('should be able to handle blanked out data', () => {
@@ -58,5 +58,4 @@ describe('root reducer test', () => {
       ]
     });
   });
-
 });

@@ -4,6 +4,7 @@ import SalesGraph from '../salesGraph';
 import DataTable from '../dataTable';
 import { connect } from 'react-redux';
 import './product-view.scss';
+import PropTypes from 'prop-types';
 
 const mapStateToProps = state => {
   const product = state.products.slice(0, 1)?.[0];
@@ -30,6 +31,11 @@ const ProductViewContainer = ({ product, sales }) => {
       </div>
     </>
   );
+};
+
+ProductViewContainer.propTypes = {
+  product: PropTypes.object,
+  sales: PropTypes.array
 };
 
 const ProductView = connect(mapStateToProps)(ProductViewContainer);

@@ -8,4 +8,4 @@ export {
   DATA_LOADED,
   DATA_ERROR,
   BAD_DATA_FOUND
-}
+};

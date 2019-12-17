@@ -1,3 +1,4 @@
+/* eslint-disable no-case-declarations */
 import { dataDetails } from '../constants/dataTypes';
 
 export default (type = null, data = '') => {

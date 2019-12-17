@@ -36,11 +36,11 @@ function DataTable(props) {
                   headings.map((heading, cellIndex) => {
                     return (
                       <td key={`cell-${heading}-${cellIndex}`}>{ dataFormatter(heading, row[heading]) }</td>
-                    )
+                    );
                   })
                 }
               </tr>
-            )
+            );
           })
         }
         </tbody>

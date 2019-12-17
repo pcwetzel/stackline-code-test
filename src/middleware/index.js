@@ -10,6 +10,6 @@ export function badDataMiddleware({ dispatch }) {
         }
       }
       return next(action);
-    }
-  }
+    };
+  };
 }

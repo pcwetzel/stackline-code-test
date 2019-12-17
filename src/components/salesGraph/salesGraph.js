@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { LineChart } from 'react-chartkick'
-import 'chart.js'
+import { LineChart } from 'react-chartkick';
+import 'chart.js';
 import {dataDetails, RETAIL_SALES, WEEK_ENDING, WHOLESALE_SALES} from '../../constants/dataTypes';
 import './sales-graph.scss';
 

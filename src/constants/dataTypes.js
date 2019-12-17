@@ -34,4 +34,4 @@ export {
   UNITS_SOLD,
   RETAILER_MARGIN,
   dataDetails
-}
+};
