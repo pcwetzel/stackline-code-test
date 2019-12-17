@@ -2,11 +2,13 @@
 Coding assessment from Stackline
 
 ### Problem Description
-![Stackline Screen To Implement](public/design/Webdev_Stackline%20screenshot.png)
+Implement a solution that meets the following criteria:
 1. A solution that resembles the provided mock up closely and implements AT LEAST ONE of either the graph or chart as seen in the mock up
 2. A working solution that takes the provided JSON file as output from a stubbed-out API call
 3. A solution that implements React and Redux best practices and patterns
 4. Clean code
+
+![Stackline Screen To Implement](public/design/Webdev_Stackline%20screenshot.png)
 
 ### Available Scripts
 
