@@ -10,11 +10,6 @@ function rootReducer(state = initialState, action) {
       products: state.products.concat(action.payload)
     });
   }
-  if (action.type === DATA_LOADED) {
-    return Object.assign({}, state, {
-      products: state.products.concat(action.payload)
-    });
-  }
   return state;
 }
 
