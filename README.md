@@ -13,6 +13,11 @@ Implement a solution that meets the following criteria:
 ### View Live Demo
 View the generated code at [petewetzel.com/stackline/](https://www.petewetzel.com/stackline/)
 
+## Features
+1. Responsive Design
+2. Accessibility via Wave Tool https://wave.webaim.org/
+![WCAG 2.1 Audit via Wave Tool](public/design/wcag-2-1-wave-audit.png)
+
 ### Available Scripts
 
 In the project directory, you can run:
