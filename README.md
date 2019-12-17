@@ -10,6 +10,8 @@ Implement a solution that meets the following criteria:
 
 ![Stackline Screen To Implement](public/design/Webdev_Stackline%20screenshot.png)
 
+### View Live Demo
+View the generated code at [petewetzel.com/stackline/](https://www.petewetzel.com/stackline/)
 ### Available Scripts
 
 In the project directory, you can run:
