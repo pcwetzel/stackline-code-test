@@ -1,7 +1,7 @@
 # stackline-code-test
 Coding assessment from Stackline
 
-##### Problem Description
+#### Problem Description
 ![Stackline Screen To Implement](public/design/Webdev_Stackline%20screenshot.png)
 1. A solution that resembles the provided mock up closely and implements AT LEAST ONE of either the graph or chart as seen in the mock up
 2. A working solution that takes the provided JSON file as output from a stubbed-out API call
