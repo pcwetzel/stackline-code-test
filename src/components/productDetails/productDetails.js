@@ -16,7 +16,7 @@ function ProductDetails(props) {
   return (
     <section className='region product-details left-pane'>
       { image && <div className='product-image'>
-          <img src={ image } alt={ title } />
+          <img src={ image } alt='' />
         </div>
       }
       { title && <h2>{title}</h2> }

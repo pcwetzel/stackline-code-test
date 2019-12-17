@@ -24,6 +24,7 @@ const ProductViewContainer = ({ product, sales }) => {
 
   return (
     <>
+      <h1 className={'screen-reader-only'}>Sales History By Product</h1>
       <ProductDetails { ...product } />
       <div className='graph'><SalesGraph sales={ sales } /></div>
       <div className='table-view'>
