@@ -25,6 +25,7 @@ View the generated code at [petewetzel.com/stackline/](https://www.petewetzel.co
 - [ ] Sorting on the data table (just noticed that). I thought about using a publicly available utility but wanted to show I could write a component that would take more structured data
 - [ ] Format the Graph utility to more closely model the image or write own graphing utility
 - [ ] Missing a lot of unit tests (ran out of time). Would like to have tested rendering components and the redux store
+- [ ] Error case handling. I created the action types for the error checking to go into, but didn't handle them (UI messages, etc.)
 - [ ] Add static type checking (https://flow.org/en/)
 
 ### Available Scripts
