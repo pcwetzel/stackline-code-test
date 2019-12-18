@@ -16,8 +16,16 @@ View the generated code at [petewetzel.com/stackline/](https://www.petewetzel.co
 
 ## Features
 1. Responsive Design
-2. Accessibility via Wave Tool https://wave.webaim.org/
+2. Linting and Unit Testing 
+3. Accessibility via Wave Tool https://wave.webaim.org/
+
 ![WCAG 2.1 Audit via Wave Tool](public/design/wcag-2-1-wave-audit.png)
+
+### To Do
+- [ ] Sorting on the data table (just noticed that). I thought about using a publicly available utility but wanted to show I could write a component that would take more structured data
+- [ ] Format the Graph utility to more closely model the image or write own graphing utility
+- [ ] Missing a lot of unit tests (ran out of time). Would like to have tested rendering components and the redux store
+- [ ] Add static type checking (https://flow.org/en/)
 
 ### Available Scripts
 
@@ -45,10 +53,5 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### To Do
-- [ ] Sorting on the data table (just noticed that)
-- [ ] Format the Graph utility to more closely model the image or write own graphing utility
-- [ ] Add static type checking (https://flow.org/en/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
